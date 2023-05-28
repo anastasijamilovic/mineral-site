@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  width: 1441px;
+  height: 71px;
+  left: 0px;
+  top: 0px;
+  font-family: "Poppins", sans-serif;
+  background: #3f6d69;
+}
+
+.telefon {
+  position: absolute;
+  font-size: 25px;
+  left: 195px;
+  top: 24px;
+  color: #ffffff;
+}
+.broj {
+  position: absolute;
+  width: 203px;
+  height: 27px;
+  left: 226px;
+  top: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.dropdown {
+  position: absolute;
+  font-size: 25px;
+  left: 1101px;
+  top: 24px;
+  background-color: #3f6d69;
+  border: none;
+  color: #ffffff;
+}
+.uspravna {
+  position: absolute;
+  font-size: 25px;
+  left: 1162px;
+  top: 20px;
+  color: #ffffff;
+}
+.face {
+  position: absolute;
+  font-size: 25px;
+  left: 1178.33px;
+  top: 24px;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.ig {
+  position: absolute;
+  font-size: 25px;
+  left: 1218.33px;
+  top: 24px;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #3f6d69;
+  border-radius: 50%;
+}
+.drugi {
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  left: 0px;
+  top: 68px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.drugi img {
+  cursor: pointer;
+}
+.drugi ul {
+  margin-right: 120px;
+}
+.drugi ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.drugi ul li a {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #3f6d69;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.treci h2 {
+  position: absolute;
+  width: 692px;
+  height: 210px;
+  left: 186px;
+  top: 301px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 105px;
+  letter-spacing: 0.03em;
+
+  color: #3f6d69;
+}
+.treci p {
+  position: absolute;
+  width: 345px;
+  height: 105px;
+  left: 414px;
+  top: 409px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 105px;
+  letter-spacing: 0.03em;
+  padding: 0px 10px;
+  color: #ffffff;
+  background: rgba(66, 125, 120, 0.84);
+}
+.treci h4 {
+  position: absolute;
+  width: 631px;
+  height: 30px;
+  left: 187px;
+  top: 534px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #360b0b;
+}
+.treci button {
+  width: 110px;
+  height: 38px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  color: #3f6d69;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 30px;
+  gap: 10px;
+  border: none;
+  position: absolute;
+  width: 170px;
+  height: 58px;
+  left: 188px;
+  top: 619px;
+
+  background: #fdffff;
+  border-radius: 6px;
+}
+.treci button:hover {
+  background-color: #3f6d69;
+  color: #fdffff;
+}
